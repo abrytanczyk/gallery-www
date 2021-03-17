@@ -1,0 +1,86 @@
+/*basic style - page and footer*/
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	margin-bottom: 60px;
+}
+		
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	background-color: #f5f5f5;
+}
+
+
+/*main page - small photos size 350px x 225px*/
+.card-gallery {
+	width: 350px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.img-gallery {
+	width: 350px; 
+	height: 225px;
+	object-fit: cover;
+}
+
+
+/*edit photo*/
+.card-edit-photo {
+	max-width:650px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+/*message after positive add, edit, delete*/
+.alert-positive {
+	text-align: center;
+	font-weight: bold;
+	color: green;
+}
+
+
+/*message after negative add, edit, delete*/
+.alert-negative {
+	text-align: center;
+	font-weight: bold;
+	color: red;
+}
+
+
+/*add shadow effect to cards*/
+.box-shadow { 
+	box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .10); 
+}
+
+
+/*page add - drag & drop style*/
+#fileToUpload {
+	height: 180px;
+	background-image: url("/upload_icon.png");
+	background-color: #f5f5f5;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 155px;
+}
+
+
+/*page instruction - list of avaliable pages */
+ul.pages-list {
+	list-style-type: circle;
+}
+
+
+/*align text */
+p.longer-text {
+	text-align: justify;
+	margin-right: 8px;
+}
